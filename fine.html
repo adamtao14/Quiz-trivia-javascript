@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styleQuiz.css">
+    <link rel="stylesheet" href="css/fine.css">
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+  </head>
+  <body onload="estrai()">
+
+
+    <div id="info_finali">
+
+      <p id="nome_finale" class="info_finali"></p>
+      <p id="categoria_finale" class="info_finali"></p>
+      <p id="domande_finale" class="info_finali"></p>
+      <p id="difficolta_finale" class="info_finali"></p>
+      <p id="punteggio_finale" class="info_finali"></p>
+      <p id="tempo_finale" class="info_finali"></p>
+  	</div>
+
+    	<button class="pronto" id="pronto" onclick="carica()">Carica i dati sul databse</button>
+      <div id="risultati_data">
+        
+      </div>
+      <button class="pronto" id="torna" onclick="torna()">Torna in Homepage</button>
+    <script type="text/javascript" src="js/fine.js"></script>
+  </body>
+</html>

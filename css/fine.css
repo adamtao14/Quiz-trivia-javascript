@@ -1,0 +1,67 @@
+#info_finali{
+    border: 10px inset black;
+    width: 30%;
+    margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	margin-top: 10px;
+  	height: 600px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Staatliches', cursive;
+    border-radius: 20px;
+}
+.info_finali{
+
+  text-align: center;
+  font-size: 30px;
+  color: Black;
+  margin-top: 60px;
+  font-family: 'Staatliches', cursive;
+}
+.red{
+  color: red;
+}
+.pronto {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 2px 2px 4px #000000;
+}
+#risultati_data{
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 10px inset black;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.tabella{
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Staatliches', cursive;
+}
+
+.iniziali td{
+  color: red;
+}

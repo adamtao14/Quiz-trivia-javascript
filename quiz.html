@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styleQuiz.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="informazioni">
+
+	<div id="nome-giocatore"></div>
+	<div id="cat_scelta"></div>
+	<div id="diff_scelta"></div>
+
+</div>
+<div id="timer">
+	<div id="counter"></div>
+  <div id="btimeGauge"></div>
+	<div id="timeGauge"></div>
+</div>
+
+<div class="domande_e_info">
+
+	<div id="numero_domanda_corrente">
+		<p id="numero_domanda_attuale">Domanda numero : <span id="numero"></span></p>
+
+	</div>
+	<div id="domanda_corrente">
+
+		<p id="domanda_attuale"></p>
+
+	</div>
+	<div id="punteggio">
+
+        <p id="score"></p>
+
+	</div>
+
+</div>
+<div class="risposte">
+
+    <div  class="contenitore_risposta" id="contenitore1"><p id="risposta1" class="risposta" onclick="controlla('1')"></p></div>
+    <div  class="contenitore_risposta" id="contenitore2"><p id="risposta2" class="risposta" onclick="controlla('2')"></p></div>
+    <div  class="contenitore_risposta" id="contenitore3"><p id="risposta3" class="risposta" onclick="controlla('3')"></p></div>
+    <div  class="contenitore_risposta" id="contenitore4"><p id="risposta4" class="risposta" onclick="controlla('4')"></p></div>
+
+</div>
+<div id="tempo_trascorso"></div>
+
+
+<script type="text/javascript" src="js/quiz.js"></script>
+</body>
+</html>

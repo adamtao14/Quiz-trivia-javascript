@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Bungee|Bungee+Inline|Press+Start+2P|Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+ body {
+        background: linear-gradient(132deg, #ec5218, #1665c1) no-repeat;
+        background-size: 400% 600%;
+        height: 80vh;
+        animation: BackgroundGradient 30s ease infinite;
+        overflow-x: hidden;
+}
+
+@keyframes BackgroundGradient {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+}
+
+.informazioni{
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 100px;
+	font-family: 'Staatliches', cursive;
+}
+#timer{
+    height : 100px;
+    width : 550px;
+    margin:0 auto;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+    color:white;
+}
+#btimeGauge{
+    width : 500px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+
+}
+
+#nome-giocatore{
+	float: left;
+	width: auto;
+}
+
+#cat_scelta{
+    display: inline-block;
+    margin:0 auto;
+}
+
+#diff_scelta{
+	float: right;
+}
+
+.domande_e_info{
+	width: 48.5%;
+	float: left;
+	/*border-top: 2px solid white;*/
+	height: auto;
+	padding-bottom: 40px;
+}
+
+.risposte{
+	width: 51%;
+	float: left;
+	height: auto;
+	/*border-left: 2px solid white;*/
+	padding-bottom: 162px;
+	padding-top: 30px;
+	/*border-top: 2px solid white;*/
+}
+#numero_barra_tempo{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: white;
+}
+#numero_domanda_corrente{
+	width: 200px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 50px;
+	height: 40px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+#domanda_corrente{
+    border: 10px inset black;
+    width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 90px;
+	height: 300px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Staatliches', cursive;
+    border-radius: 20px;
+}
+
+#numero_domanda_attuale{
+    margin-top: 10px;
+}
+
+#domanda_attuale{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+
+}
+
+#punteggio{
+    width: 80px;
+	border:2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 50px;
+	height: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+#score{
+    margin-top: 11px;
+    color: black;
+    font-family: 'Staatliches', cursive;
+
+}
+
+
+.contenitore_risposta{
+
+	width: 70%;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 80px;
+	height: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.risposta {
+    margin-top: 18px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+
+}

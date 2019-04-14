@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Trivia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styleTriviaHome.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container1">
+
+	<p id="nome-trivia" class="zoomIn animated">TRIVIA QUIZ</p>
+
+	<i><p class="cosa_fare">Inserisci il tuo Username</p></i>
+	<input type="text" name="nome" id="nome" maxlength="15" placeholder="Massimo 15 caratteri">
+
+	<i><p class="cosa_fare">Scegli una categoria</p></i>
+
+	<select id="categoria" class="scelte">
+	  <option value="musica">Musica</option>
+	  <option value="sport">Sport</option>
+	  <option value="geografia">Geografia</option>
+	  <option value="storia">Storia</option>
+		<option value="film">Film</option>
+		<option value="politica">Politica</option>
+	</select>
+
+	<i><p class="cosa_fare">Scegli la difficoltà</p></i>
+
+	<select id="difficolta" class="scelte">
+	  <option value="easy">Facile</option>
+	  <option value="medium">Medio</option>
+	  <option value="hard">Difficile</option>
+	</select>
+
+	<i><p class="cosa_fare">Scegl il numero di domande</p></i>
+
+	<select id="num_domande" class="scelte">
+		<option value="10">10</option>
+		<option value="20">20</option>
+		<option value="30">30</option>
+	</select>
+
+	<button class="pronto" id="pronto">Sono pronto</button>
+
+</div>
+<div class="container2">
+
+	<i><p class="cosa_fare_due">Il quiz inizia tra :</p></i>
+
+	<p id="timer"></p>
+
+</div>
+<div class="footer">
+	<p>Creato da Adam Taoufiq e Luca Barone 2019</p>
+</div>
+
+<script type="text/javascript" src="js/preGame.js"></script>
+
+</body>
+</html>

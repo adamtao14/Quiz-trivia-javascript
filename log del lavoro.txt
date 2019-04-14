@@ -1,0 +1,29 @@
+28/01/2019      Inizio lavoro,struttura layout della pagina iniziale,Scelta della categoria    2 ore
+		difficoltà e nome utente                 
+
+30/01/2019      Layout delle domande,generazione delle domande casuali 			       2 ore
+		tramite API funzioni per inserimento delle domande e risposte
+
+31/01/2019	correzione del layout delle pagine,algoritmo per assegnazioni casuali	       1 ora
+		delle domande nei diversi contenitori.	
+
+
+1/02/2019   	Timer per le domande,fix di alcuni bug ralitivi al salvataggio 		       2 ore
+		della categoria e della dificolta,fix di un bug del timer
+
+3/02/2019        Abbiamo cambiato le funzioni del timer,creando un sistema più semplice	       4 ore
+		per il controllo delle risposte entro un certo intervalo e anche per 
+		l'andamento delle domande.Abbiamo aggiunto una funzione per il punteggio
+		e anche il sistema di validazione delle risposte.Fix di tanti bug relativi
+		al tempo e alla visualizzazione delle domande
+
+
+
+9/02/2019 	Aggiustamenti allo stile di alcuni elementi,fix del bug della visualizzazione	1 ora
+		delle risposte grazie al mitico prof Angiani :)
+
+6/03/2019	fix di un big relativo al cambiamento delle domande,aggiunta della pagina	2 ore
+		finale con tutte le informazioni riguardanti la propria partita,caricamento
+		dei dati su firebase.
+
+7/03/2019	Aggiunta la possibilità di vedere tutti i risultati di tutti i giocatori       30 minuti
